@@ -1,0 +1,73 @@
+body {
+  padding-left: 25%;
+  padding-top: 10%;
+  background-image: url(pizza2.avif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+table {
+  background-color: rgba(83, 52, 6, 0.301);
+  height: 600px;
+}
+th {
+  text-shadow: 4px 4px 4px rgb(104, 14, 14);
+  color: rgb(185, 37, 37);
+  font-size: 3em;
+}
+td {
+  color: rgb(189, 23, 23);
+  font-size: 1.5em;
+}
+td input {
+  color: rgb(189, 23, 23);
+  font-size: .8em;
+  background-color: rgba(240, 248, 255, 0);
+}
+td:hover {
+  color:rgb(255, 96, 96);
+  box-shadow: 4px 4px 10px rgb(104, 14, 14);
+}
+select {
+  color: rgb(189, 23, 23);
+  width: 50%;
+}
+textarea {
+  color: rgb(189, 23, 23);
+  margin: .5em;
+  padding: .5em .7em .5em .7em;
+  border-radius: 10%;
+  border-width: 2px;
+  border-color: rgb(189, 23, 23);
+  background-color: rgba(240, 248, 255, 0);
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+div {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  animation-name: roll;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes roll{
+  0% {left:0px; top:0px;}
+  50% {left:450px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+input[type="submit"]:hover {
+  color: rgb(236, 53, 53);
+  animation-name: puls;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  background-color: rgba(143, 49, 49, 0.596);
+}
+@keyframes puls{
+  0% {opacity: 0; left: 50px; top: 0px;}
+  25% {opacity: 1; left: 0px; top: 50px;}
+  50% {opacity: 0; left: 50px; top: 100px;}
+  75% {opacity: 1; left: 100px; top: 50px;}
+  100% {opacity: 0; left: 50px; top: 0px;}
+}
