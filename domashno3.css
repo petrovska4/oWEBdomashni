@@ -1,0 +1,17 @@
+.body {
+  margin-top: 10%;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  border: none;
+  border-bottom: thin solid gray;
+}
+input[type=button] {
+  height: 50px;
+  border-radius: 10px;
+  font-size: x-large;
+  background-color: rgba(155, 106, 47, 0.603);
+}
