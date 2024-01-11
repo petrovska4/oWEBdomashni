@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { DriverComponent } from './driver/driver.component';
 import { DRIVERS } from '../Angular/db-data';
+import { Driver } from './module/klasa';
 
 @Component({
   selector: 'app-root',
@@ -17,4 +18,9 @@ export class AppComponent {
   maks = DRIVERS[1];
   checo = DRIVERS[2];
   lewis = DRIVERS[3];
+  vozaci = DRIVERS;
+
+  appKlik(suzi: Driver) {
+    console.log("Me klikna od app", suzi);
+  }
 }

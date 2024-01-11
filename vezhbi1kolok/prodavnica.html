@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script2.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Osnovi na WEB programiranje</h1>
+    <div id="categories" class="categories">
+      <a href="doma.html"><p style="margin-right: 10px;">Doma</p></a>
+      <a href="podatoci.html"><p style="margin-right: 10px;">Vashi podatoci</p></a>
+      <a href="prodavnica.html"><p>Prodavnica</p></a>
+    </div>
+  </header>
+  <div id="prodavnica" style="display: flex; flex-direction: column; align-items: center;">
+    <div>
+      <label>Product Name</label>
+      <input type="text" id="name" style="display: inline;">
+    </div>
+    <div>
+      <label>Quantity:</label>
+      <input type="text" id="quantity" style="display: inline;">
+    </div>
+    <div>
+      <label>Unit Price:</label>
+      <input type="text" id="price" style="display: inline;">
+    </div>
+    <input type="button" id="addItem" value="Add item">
+    <table id="table">
+      <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th id="total"></th>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <p>OWEB, Copyright @ 2023</p>
+  </footer>
+</body>
+</html>

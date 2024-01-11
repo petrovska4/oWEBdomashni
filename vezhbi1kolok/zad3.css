@@ -1,0 +1,16 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+#timer {
+  border-radius: 50%;
+  background-color: rgb(39, 102, 218);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 50px;
+}

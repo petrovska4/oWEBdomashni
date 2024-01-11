@@ -2,14 +2,14 @@
 
 export const DRIVERS: any = [
 
-    undefined,
+    //undefined,
 
     {
         id: 1,
         name: "Max Verstappen",
         team: "Red Bull",
         category: "ADVANCED",
-        iconUrl: 'https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.1920.medium.jpg/1701270073824.jpg',
+        //iconUrl: 'https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.1920.medium.jpg/1701270073824.jpg',
         points: 410
     },
     {
@@ -18,7 +18,7 @@ export const DRIVERS: any = [
         iconUrl: 'https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1920.medium.jpg/1677069773437.jpg',
         category: 'BEGINNER',
         team: "Red Bull",
-        ponts: 310,
+        points: 310,
     },
 
     {

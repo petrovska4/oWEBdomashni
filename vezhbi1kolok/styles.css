@@ -1,0 +1,52 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+header, footer {
+  height: 200px;
+  border: thin solid blue;
+  background-color: lightblue;
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  height: 100px;
+}
+a:hover {
+  font-weight: bold;
+  color: blueviolet;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+#doma, #podatoci, #prodavnica {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+}
+input {
+  width: 200px;
+  font-size: large;
+}
+#button {
+  background-color: blueviolet;
+  color: blue;
+}
+table {
+  margin-top: 100px;
+  display: none;
+}
+table, th, td {
+  border: thin solid violet;
+  border-collapse: collapse;
+}

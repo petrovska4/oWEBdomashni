@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="memorija.js"></script>
+  <style>
+    html, body {
+      margin: 0px;
+      height: 100%;
+    }
+    #puzzle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .card {
+      height: 200px;
+      width: 200px;
+      border: thin solid gray;
+      background-color: aquamarine;
+    }
+    .card:hover {
+      background-color: rgb(88, 173, 145);
+    }
+    p {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<!-- ima 8 slikicki koi treba da se vrtat dve po dve i ako se isti da ostanat svrteni -->
+<body>
+  <div id="puzzle">
+    <div id="card1" class="card">
+      <p id="p1">Rainbow</p>
+    </div>
+    <div id="card2" class="card">
+      <p id="p2">Money</p>
+    </div>
+    <div id="card3" class="card">
+      <p id="p3">Money</p>
+    </div>
+    <div id="card4" class="card">
+      <p id="p4">Glass</p>
+    </div>
+    <div id="card5" class="card">
+      <p id="p5">Laptop</p>
+    </div>
+    <div id="card6" class="card">
+      <p id="p6">Rainbow</p>
+    </div>
+    <div id="card7" class="card">
+      <p id="p7">Glass</p>
+    </div>
+    <div id="card8" class="card">
+      <p id="p8">Laptop</p>
+    </div>
+  </div>
+</body>
+</html>

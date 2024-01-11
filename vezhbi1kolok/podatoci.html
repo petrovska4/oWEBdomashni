@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script1.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Osnovi na WEB programiranje</h1>
+    <div id="categories" class="categories">
+      <a href="doma.html"><p style="margin-right: 10px;">Doma</p></a>
+      <a href="podatoci.html"><p style="margin-right: 10px;">Vashi podatoci</p></a>
+      <a href="prodavnica.html"><p>Prodavnica</p></a>
+    </div>
+  </header>
+  <div id="podatoci">
+    <form>
+      <fieldset>
+        <legend>Popolnete ja slednava forma</legend>
+        <fieldset>
+          <legend>Licni informacii</legend>
+          <label>Ime:</label>
+          <input type="text" id="ime" placeholder="Ime">
+          <label for="">Prezime:</label>
+          <input type="text" id="prezime" placeholder="Prezime">
+        </fieldset>
+        <fieldset>
+          <legend>Korisnicki podatoci</legend>
+          <label>Email:</label>
+          <input type="email" id="email" placeholder="name@domain.com">
+          <label>Password:</label>
+          <input type="password" id="password" placeholder="********">
+        </fieldset>
+        <fieldset>
+          <legend>Popolnete gi slednive detali:</legend>
+          <label>Adresa:</label>
+          <input type="text" id="adresa" placeholder="Ulica i broj">
+          <label>Telefon:</label>
+          <input type="tel" id="tel" placeholder="000/000-000">
+        </fieldset>
+        <input id="button" type="button" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+  <footer>
+    <p>OWEB, Copyright @ 2023</p>
+  </footer>
+</body>
+</html>
